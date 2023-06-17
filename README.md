@@ -5,8 +5,7 @@ A basic set of concepts to add on top of the existing standard ones.
 ## How to Use
 
 Download the project and do
-`target_include_directories(${PROJECT_NAME} PRIVATE ${path_to_project}/include`,
-`target_link_libraries(${PROJECT_NAME} PRIVATE ${vitimiti_concepts})` to start using the concepts.
+`target_include_directories(${PROJECT_NAME} PRIVATE ${path_to_project}/include` to start using the concepts.
 
 For example, if you want to use `FetchContent`, you may do:
 
@@ -23,7 +22,6 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(vitimiti_concepts)
 
 target_include_directories(${PROJECT_NAME} PRIVATE ${vitimiti_concepts_SOURCE_DIR}/include)
-target_link_libraries(${PROJECT_NAME} PRIVATE ${vitimiti_concepts})
 
 # Rest of the project configuration...
 ```
