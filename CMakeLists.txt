@@ -25,7 +25,7 @@
 cmake_minimum_required(VERSION 3.25)
 project(
   vitimiti_concepts
-  VERSION 0.0.0
+  VERSION 1.0.0
   DESCRIPTION "Templated library with C++ concepts"
   HOMEPAGE_URL "https://github.com/vitimiti/concepts"
   LANGUAGES CXX)
